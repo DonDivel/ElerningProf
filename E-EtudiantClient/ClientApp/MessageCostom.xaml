@@ -1,0 +1,11 @@
+﻿<Window x:Class="ClientApp.MessageCostom"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MessageCostom" Height="117.075" Width="374.254">
+    <Grid>
+        <Image HorizontalAlignment="Left" Margin="20,26,0,10" Width="48" RenderTransformOrigin="0.5,1" Source="tool1.png" />
+        <Label x:Name="MessageLabel" Content="" HorizontalAlignment="Left" Margin="151,44,0,0" VerticalAlignment="Top" Width="326" Height="72"/>
+
+
+    </Grid>
+</Window>

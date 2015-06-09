@@ -1,0 +1,52 @@
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\bin\Debug\ClientApp.exe.config
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\bin\Debug\ClientApp.exe
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\bin\Debug\ClientApp.pdb
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\obj\Debug\ClientApp.csprojResolveAssemblyReference.cache
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\obj\Debug\App.g.cs
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\obj\Debug\ClientApp_MarkupCompile.cache
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\obj\Debug\ClientApp.g.resources
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\obj\Debug\ClientApp.Properties.Resources.resources
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\obj\Debug\ClientApp.csproj.GenerateResource.Cache
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\obj\Debug\ClientApp.exe
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\obj\Debug\ClientApp.pdb
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\bin\Debug\ChatingInterfaces.dll
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\bin\Debug\ChatingInterfaces.pdb
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\obj\Debug\Login.baml
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\obj\Debug\Login.g.cs
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\obj\Debug\Home.baml
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\obj\Debug\Inscription.baml
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\obj\Debug\Home.g.cs
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\obj\Debug\Inscription.g.cs
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\obj\Debug\MessageCostom.baml
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\obj\Debug\MessageCostom.g.cs
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\obj\Debug\Room.baml
+C:\Users\Root\Desktop\PFA\ClientApp\ClientApp\obj\Debug\Room.g.cs
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\Home.baml
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\Inscription.baml
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\Login.baml
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\Room.baml
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\MessageCostom.baml
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\RoomReduit.baml
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\Home.g.cs
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\Inscription.g.cs
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\Login.g.cs
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\Room.g.cs
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\MessageCostom.g.cs
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\RoomReduit.g.cs
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\App.g.cs
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\ClientApp_Content.g.cs
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\ClientApp_MarkupCompile.cache
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\ClientApp.g.resources
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\ClientApp.Properties.Resources.resources
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\ClientApp.csproj.GenerateResource.Cache
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\bin\Debug\ClientApp.exe.config
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\ClientApp.csprojResolveAssemblyReference.cache
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\bin\Debug\ClientApp.exe
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\bin\Debug\ClientApp.pdb
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\bin\Debug\ChatingInterfaces.dll
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\bin\Debug\WebCam_Capture.dll
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\bin\Debug\ChatingInterfaces.pdb
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\ClientApp.exe
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\ClientApp.pdb
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\CreatCourWindow.baml
+C:\Users\Root\Desktop\Pfa Final\E-EtudiantClient\ClientApp\obj\Debug\CreatCourWindow.g.cs

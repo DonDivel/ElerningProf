@@ -1,0 +1,90 @@
+﻿<Window x:Class="ClientApp.Room"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="606" Width="1193" Closing="Window_Closing" ContextMenuOpening="Window_ContextMenuOpening" FontSize="11">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="424*"/>
+            <ColumnDefinition Width="26*"/>
+            <ColumnDefinition Width="66*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <DockPanel HorizontalAlignment="Left" Height="26" LastChildFill="False" VerticalAlignment="Top" Width="1066" Grid.ColumnSpan="2" Margin="0,0,-52,0">
+            <Menu x:Name="MenuItems" DockPanel.Dock="Top" Height="26" VerticalAlignment="Top" Margin="4,0,-117,0">
+                <Menu.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF6F6F6" Offset="0.25"/>
+                        <GradientStop Color="#FFEAE8E8" Offset="0.25"/>
+                        <GradientStop Color="#FFDCD9D9" Offset="0.8"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Menu.Background>
+                <MenuItem Header="Fichier">
+                    <MenuItem x:Name="LogoutItem" Header="Arreter Cours" />
+                    <MenuItem x:Name="OptionsButton" Header="Options" PreviewMouseLeftButtonUp="OptionsButton_PreviewMouseLeftButtonUp"/>
+                    <MenuItem x:Name="ExitItem" Header="Profile" />
+                </MenuItem>
+
+                <MenuItem Header="Edition">
+                    <MenuItem Header="Edit Profil"/>
+                    <MenuItem Header="Change Password"/>
+                    <MenuItem Header="Bay Jetons"/>
+                </MenuItem>
+                <MenuItem Header="Help">
+                    <MenuItem Header="Join Help Room "/>
+                    <MenuItem Header="Go To WebSite"/>
+                </MenuItem>
+                <MenuItem Header="About">
+                    <MenuItem Header="About Us"/>
+                </MenuItem>
+                <MenuItem x:Name="ProfItems" Header="Room">
+                    <MenuItem Header="Cree Cours"/>
+                    <MenuItem Header="Prof Panel"/>
+                </MenuItem>
+
+            </Menu>
+        </DockPanel>
+        <ListBox x:Name="ReciveListBox" HorizontalAlignment="Left" Height="130" Margin="10,349,0,0" VerticalAlignment="Top" Width="619"/>
+        <TextBox x:Name="SendTextbox" HorizontalAlignment="Left" Height="23" Margin="34,515,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="310"/>
+        <Button x:Name="SendButton" Content="Send" HorizontalAlignment="Left" Margin="361,515,0,0" VerticalAlignment="Top" Width="75" Click="SendButton_Click" IsDefault="True"/>
+
+
+        <ListBox x:Name="OnlineListBox" HorizontalAlignment="Left" Height="423" Margin="10,31,0,0" VerticalAlignment="Top" Width="172" Grid.ColumnSpan="2" Grid.Column="1" >
+
+            <ListBox.ItemTemplate >
+                <DataTemplate>
+                    <ItemsControl ItemsSource="{Binding ImgUser}">
+                        <Grid Margin="0,2">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="{Binding Image}"  Height="22" Width="22"/>
+                                <TextBlock Text="{Binding Username}"  Height="17"  />
+                            </StackPanel>
+                        </Grid>
+
+                    </ItemsControl>
+
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+
+        </ListBox>
+
+        <Label x:Name="RoomID" Content="" HorizontalAlignment="Left" Margin="95,28,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Label x:Name="UserNik" Content="" HorizontalAlignment="Left" Margin="314,37,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Image x:Name="CameraBox" HorizontalAlignment="Left" Height="124" Margin="814,36,0,0" VerticalAlignment="Top" Width="148"/>
+        <Button x:Name="MicroButton" Content="" Grid.Column="2" HorizontalAlignment="Left" Margin="19,468,0,0" VerticalAlignment="Top" Width="37" Height="36" Cursor="Hand" Click="MicroButton_Click"/>
+        <TextBlock x:Name="consoleTextBlock" HorizontalAlignment="Left" Height="171" Margin="658,349,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="304"/>
+        <ListBox x:Name="questionListbox" HorizontalAlignment="Left" Height="307" VerticalAlignment="Top" Width="290" Margin="10,28,0,0"/>
+        <Button x:Name="CmeraButton" Content="Camera ON" HorizontalAlignment="Left" Height="24" Margin="380,81,0,0" VerticalAlignment="Top" Width="124" Background="White" Click="CmeraButton_Click"/>
+        <Button x:Name="paratgebutton" Content="Partage d'ecrat OFF" HorizontalAlignment="Left" Height="24" Margin="380,125,0,0" VerticalAlignment="Top" Width="124" Background="White" Click="paratgebutton_Click"/>
+        <Button x:Name="sendDocumentButton" Content="Partage Document" HorizontalAlignment="Left" Height="24" Margin="380,171,0,0" VerticalAlignment="Top" Width="124" Background="{x:Null}"/>
+        <Button x:Name="StopCoursButton" Content="Arreter le Cour" HorizontalAlignment="Left" Height="24" Margin="380,36,0,0" VerticalAlignment="Top" Width="124" Background="{x:Null}"/>
+        <Label Content="Nombre D'etudiant" HorizontalAlignment="Left" Height="24" Margin="658,170,0,0" VerticalAlignment="Top" Width="285"/>
+        <Label Content="Temps Restant" HorizontalAlignment="Left" Height="24" Margin="658,229,0,0" VerticalAlignment="Top" Width="285"/>
+        <Label Content="Duree de Cour" HorizontalAlignment="Left" Height="24" Margin="658,200,0,0" VerticalAlignment="Top" Width="285"/>
+        <Label Content="Nombre de question" HorizontalAlignment="Left" Height="24" Margin="658,258,0,0" VerticalAlignment="Top" Width="285"/>
+        <Button x:Name="ReduitButton" Content="Mode Reduit" HorizontalAlignment="Left" Height="24" Margin="380,213,0,0" VerticalAlignment="Top" Width="124" Background="{x:Null}" Click="ReduitButton_Click"/>
+        
+    
+    </Grid>
+
+</Window>
